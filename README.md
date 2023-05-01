@@ -1,6 +1,6 @@
 # Wang Tiles Turing Machines
 
-This is the companion source code for my page "Simulating Turing Machines with Wang Tiles".
+This is the companion source code for my page [Simulating Turing Machines with Wang Tiles](https://seriot.ch/projects/simulating_turing_machines_with_wang_tiles.html).
 
 __Simulating Turing Machines with Wang tiles__
 

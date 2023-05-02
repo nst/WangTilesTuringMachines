@@ -4,7 +4,7 @@ This is the companion source code for my page [Simulating Turing Machines with W
 
 __Simulating Turing Machines with Wang tiles__
 
-`wtm` (Wang tiles Turing Machine) is a Python program that demonstrates how to perform computation by simulating a Turing machine (TM) with Wang tiles in practice. It is based on the [procedure described by Robinson in 1971](Undecidability and nonperiodicity for tilings of the plane](https://lipn.fr/~fernique/qc/robinson.pdf).
+`wtm` (Wang tiles Turing Machine) is a Python program that demonstrates how to perform computation by simulating a Turing machine (TM) with Wang tiles in practice. It is based on the procedure described by Robinson in 1971 in [Undecidability and nonperiodicity for tilings of the plane](https://lipn.fr/~fernique/qc/robinson.pdf).
 
 Here is the tileset for a Turing machine that will increment a number. The input `111` can be read at the top of the tiling, and the result `1000` appears at the bottom.
 

@@ -17,7 +17,13 @@ machines["Binary adder"] = WangTM(name="Binary adder",
                             alphabet=["0","1"],
                             blank_symbol="#",
                             transitions_string=' '.join(["#LA 1LA 0LB", "#LC 0LB 1LB", "1RD 1RD 0LC", "#RE 0RD 1RD", "#RH 0RE 1RF", "#LA 0RF 1RF"]))
-                        
+
+machines["Beaver"] = WangTM(name="Beaver nst 41",
+                            states=["A","B","C","D","E","H"],
+                            alphabet=["1"],
+                            blank_symbol="0",
+                            transitions_string= "0RC 1LE 0LC 0LA 1RE 1RD 1LH 0RB 1LA 1RB")
+
 # https://webusers.imj-prg.fr/~pascal.michel/bbc.html
 
 machines["Beaver 2 2"] = WangTM(name="Beaver 2 states 2 symbols, S=6",

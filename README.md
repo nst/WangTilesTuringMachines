@@ -25,7 +25,7 @@ __Source Code__
 The source code consists in the following Python files:
 
 * `wtm_model.py` WangTM class, can generate Wang tiles set for any TM configuration, and run the maching for any input
-* `wtm_draw.py` methods to draw the tileset and the execution of a WangTM for some given input, using the [Pycairo](https://pycairo.readthedocs.io/) grapic library
+* `wtm_draw.py` methods to draw the tileset and the execution of a WangTM for some given input, using the [Pycairo](https://pycairo.readthedocs.io/) graphic library
 * `wtm_machines.py` sample Turing machines as WangTM instances
 * `wtm_tests.py` unit tests for the sample machines
 * `wtm.py` a sandbox for running and/or drawing WangTM instances 
@@ -46,5 +46,5 @@ __Sample usage__
     for step, left_shifts, tape in self.run_gen("1010"):
         pass
 
-	 # run and draw the tiling
+    # run and draw the tiling
     filename = draw_tm(tm, input="1010”)
